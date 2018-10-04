@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_us"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@android:color/holo_red_light"
+    tools:context="hereforthebeer.sokoban.level_Selection_Grid">
+
+    <TextView
+
+        android:text="Level Select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="36sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="5"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/gridLayout2">
+
+
+        <Button
+            android:text="1"
+            android:layout_width="110dp"
+            android:layout_height="62dp"
+            android:id="@+id/map1"
+            android:onClick="createMapName"
+            android:layout_alignBaseline="@+id/map2"
+            android:layout_alignBottom="@+id/map2"
+            android:layout_alignLeft="@+id/map4"
+            android:layout_alignStart="@+id/map4" />
+
+        <Button
+            android:text="2"
+
+            android:layout_width="110dp"
+            android:layout_height="62dp"
+            android:id="@+id/map2"
+            android:onClick="createMapName"
+            android:layout_alignBaseline="@+id/map3"
+            android:layout_alignBottom="@+id/map3"
+            android:layout_alignLeft="@+id/map5"
+            android:layout_alignStart="@+id/map5" />
+
+        <Button
+            android:text="3"
+            android:layout_width="110dp"
+            android:layout_height="62dp"
+
+            android:id="@+id/map3"
+            android:onClick="createMapName"
+            android:layout_below="@+id/gridLayout"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+
+
+        <Button
+            android:text="4"
+            android:layout_width="110dp"
+            android:layout_height="62dp"
+            android:id="@+id/map4"
+            android:onClick="createMapName"
+            android:layout_alignBaseline="@+id/map5"
+            android:layout_alignBottom="@+id/map5"
+            android:layout_alignLeft="@+id/map7"
+            android:layout_alignStart="@+id/map7" />
+        <Button
+            android:text="5"
+            android:layout_width="110dp"
+            android:layout_height="62dp"
+            android:id="@+id/map5"
+            android:onClick="createMapName"
+            android:layout_alignBaseline="@+id/map6"
+            android:layout_alignBottom="@+id/map6"
+            android:layout_centerHorizontal="true" />
+
+
+        <Button
+            android:text="6"
+            android:layout_width="110dp"
+            android:layout_height="62dp"
+            android:id="@+id/map6"
+            android:onClick="createMapName"
+            android:layout_below="@+id/map3"
+            android:layout_alignLeft="@+id/map3"
+            android:layout_alignStart="@+id/map3"
+            />
+
+
+
+
+        <Button
+            android:text="7"
+            android:layout_width="110dp"
+            android:layout_height="62dp"
+
+            android:id="@+id/map7"
+            android:onClick="createMapName"
+            android:layout_below="@+id/map5"
+            android:layout_toLeftOf="@+id/map8"
+            android:layout_toStartOf="@+id/map8"/>
+
+
+        <Button
+            android:text="8"
+            android:layout_width="110dp"
+            android:layout_height="62dp"
+            android:id="@+id/map8"
+            android:onClick="createMapName"
+            android:layout_alignBaseline="@+id/map7"
+            android:layout_alignBottom="@+id/map7"
+            android:layout_alignLeft="@+id/map5"
+            android:layout_alignStart="@+id/map5" />
+        <Button
+            android:text="9"
+            android:layout_width="110dp"
+            android:layout_height="62dp"
+            android:id="@+id/map9"
+            android:onClick="createMapName"
+            android:layout_alignBaseline="@+id/map8"
+            android:layout_alignBottom="@+id/map8"
+            android:layout_alignLeft="@+id/map6"
+            android:layout_alignStart="@+id/map6" />
+
+
+
+
+        <Button
+            android:text="10"
+            android:layout_width="110dp"
+            android:layout_height="62dp"
+
+            android:id="@+id/map10"
+            android:layout_below="@+id/map7"
+            android:layout_alignLeft="@+id/map7"
+            android:layout_alignStart="@+id/map7"
+            android:onClick="createMapName" />
+        <Button
+            android:text="11"
+            android:layout_width="110dp"
+            android:layout_height="62dp"
+            android:layout_alignTop="@+id/map10"
+            android:layout_toRightOf="@+id/map7"
+            android:layout_toEndOf="@+id/map7"
+            android:id="@+id/map11"
+            android:onClick="createMapName" />
+        <Button
+            android:text="12"
+            android:layout_width="110dp"
+            android:layout_height="62dp"
+            android:id="@+id/map12"
+            android:onClick="createMapName"
+            android:layout_alignBaseline="@+id/map11"
+            android:layout_alignBottom="@+id/map11"
+            android:layout_alignLeft="@+id/map9"
+            android:layout_alignStart="@+id/map9" />
+
+        <Button
+            android:text="13"
+            android:layout_width="110dp"
+            android:layout_height="62dp"
+
+            android:id="@+id/map13"
+            android:onClick="createMapName"
+            android:layout_below="@+id/map10"
+            android:layout_alignLeft="@+id/map10"
+            android:layout_alignStart="@+id/map10" />
+
+        <Button
+            android:text="14"
+            android:layout_width="110dp"
+            android:layout_height="62dp"
+            android:layout_alignTop="@+id/map13"
+            android:layout_alignLeft="@+id/map11"
+            android:layout_alignStart="@+id/map11"
+            android:id="@+id/map14"
+            android:onClick="createMapName" />
+
+        <Button
+            android:text="15"
+            android:layout_width="110dp"
+            android:layout_height="62dp"
+            android:layout_alignTop="@+id/map14"
+            android:layout_alignLeft="@+id/map12"
+            android:layout_alignStart="@+id/map12"
+            android:id="@+id/map15"
+            android:onClick="createMapName" />
+
+
+
+
+
+    </GridLayout>
+
+    <Button
+        android:text="Boss Level"
+        android:layout_width="100dp"
+        android:layout_height="62dp"
+
+
+        android:id="@+id/boss"
+
+        android:onClick="createMapName"
+        android:layout_below="@+id/gridLayout2"
+        android:layout_alignLeft="@+id/gridLayout2"
+        android:layout_alignStart="@+id/gridLayout2"
+        android:layout_marginTop="15dp"
+        android:layout_alignRight="@+id/gridLayout2"
+        android:layout_alignEnd="@+id/gridLayout2" />
+
+    <Button
+        android:text="Back"
+        android:layout_width="117dp"
+        android:layout_height="62dp"
+        android:id="@+id/button"
+        android:onClick="onBackTap"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/boss"
+        android:layout_alignStart="@+id/boss" />
+
+</RelativeLayout>

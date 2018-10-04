@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sokoban</string>
+    <string name="About_us_back_button">Back</string>
+    <string name="About_us_title">About us</string>
+    <string name="About_us_text">This is where the text for the abouts us page will go. We can make this text scrollable</string>
+    <string name="title_activity_quick_play">quick_play</string>
+    <string name="title_activity_new__game">new_Game</string>
+    <string name="title_activity_level__selection__packs">level_Selection_Packs</string>
+    <string name="title_activity_level__selection__grid">level_Selection_Grid</string>
+    <string name="title_activity_play_state">play_state</string>
+    <string name="packone" />
+    <string name="packtwo" />
+    <string name="packthree" />
+    <string name="packfour" />
+
+
+</resources>

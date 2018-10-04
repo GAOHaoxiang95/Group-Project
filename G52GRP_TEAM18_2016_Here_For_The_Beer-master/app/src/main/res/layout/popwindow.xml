@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark">
+
+    <TextView
+        android:text="How to Play"
+        android:id="@+id/htp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="x"
+        android:background="@android:color/transparent"
+        android:onClick="onXTap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:layout_marginLeft="-15dp"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="80dp"
+        android:text=" Rules:\n- The aim for the game is to move the the boxes to the goal (yellow circle tile). \n
+- To do this you control the man in the direction you would like to go. \n
+- You can only move one box at a time.\n\nThere are two game modes to choose from campaign or quick play:
+
+\n\nCampaign - These are progressive pre built levels designed to be more challenging as you progress.
+At the end of each pack there is a boss level, this is where you play vs the AI. The first person to push all the boxes to the goals wins.
+\n\nQuick Play - Here you can jump straight into a randomly generated level by selecting your difficulty and mode.
+Solo is just a standard game by yourself, Challenge is where you play vs the AI. The first person to push all the boxes to the goals wins."/>
+
+
+</RelativeLayout>

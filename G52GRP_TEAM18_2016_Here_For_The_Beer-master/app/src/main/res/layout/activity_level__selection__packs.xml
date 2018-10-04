@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_level_Selection_Packs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="hereforthebeer.sokoban.level_Selection_Packs">
+
+    <TextView
+
+        android:text="Choose a Pack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="36sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp" />
+
+    <Button
+        android:text="Back"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/button"
+        android:onClick="onBackTap" />
+
+
+
+    <android.support.v4.view.ViewPager
+                android:layout_height="match_parent"
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="100dp"
+              />
+
+
+    <TextView
+        android:text="Swipe to select pack"
+        android:layout_marginTop="-90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/viewpager"
+        />
+
+        </RelativeLayout>
+
+
+
+
+
